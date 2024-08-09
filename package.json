@@ -1,6 +1,6 @@
 {
   "name": "vite-plugin-vue-markd",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "files": [
     "dist"
@@ -10,6 +10,16 @@
   "exports": {
     "import": "./dist/index.js",
     "require": "./dist/index.cjs.js"
+  },
+  "keywords": [
+    "vite",
+    "vue",
+    "markdown"
+  ],
+  "author": "zq",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zq741235/vite-plugin-vue-markd.git"
   },
   "scripts": {
     "build": "rollup -c "
