@@ -1,6 +1,5 @@
 {
-  "name": "vite-plugin-vue-md",
-  "private": true,
+  "name": "vite-plugin-vue-markdown",
   "version": "0.0.1",
   "type": "module",
   "files": [
