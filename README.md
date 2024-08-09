@@ -1,10 +1,10 @@
-# vite-plugin-vue-md
+# vite-plugin-vue-markd
 
 
 ## 安装
 
 ```bash
-npm i vite-plugin-vue-md highlight.js
+npm i vite-plugin-vue-markd highlight.js
 ```
 
 ## 使用
@@ -12,7 +12,7 @@ npm i vite-plugin-vue-md highlight.js
 ### 引入插件
 
 ```javascript
-import vueMdPlugin from 'vite-plugin-vue-md'
+import vueMdPlugin from 'vite-plugin-vue-markd'
 
 // add to vite plugins
 plugins: [

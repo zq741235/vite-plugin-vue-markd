@@ -1,4 +1,4 @@
-// vite-plugin-vue-markdown.js
+// vite-plugin-vue-markd.js
 import { readFileSync } from 'fs'
 import {join, extname } from 'path' 
 import { parse } from '@vue/compiler-sfc'
@@ -43,7 +43,7 @@ import qs from 'qs'
 export default function vueMarkdownPlugin(options = {}) {
 //   const filter = createFilter(options.include || /\.md$/, options.exclude);
   return {
-    name: 'vite-plugin-vue-markdown',
+    name: 'vite-plugin-vue-markd',
     transform(code, id) {
     //   if (!filter(id)) return;
       if (!/\.md$/.test(id)) return
